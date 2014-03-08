@@ -14,13 +14,13 @@
 		10C8BB8818CBCD4600077A2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C8BB8718CBCD4600077A2A /* main.m */; };
 		10C8BB8C18CBCD4600077A2A /* ROAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C8BB8B18CBCD4600077A2A /* ROAppDelegate.m */; };
 		10C8BB8F18CBCD4600077A2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C8BB8D18CBCD4600077A2A /* Main.storyboard */; };
-		10C8BB9218CBCD4600077A2A /* ROViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C8BB9118CBCD4600077A2A /* ROViewController.m */; };
 		10C8BB9418CBCD4600077A2A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10C8BB9318CBCD4600077A2A /* Images.xcassets */; };
 		10C8BB9B18CBCD4600077A2A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C8BB9A18CBCD4600077A2A /* XCTest.framework */; };
 		10C8BB9C18CBCD4600077A2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C8BB7B18CBCD4600077A2A /* Foundation.framework */; };
 		10C8BB9D18CBCD4600077A2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C8BB7F18CBCD4600077A2A /* UIKit.framework */; };
 		10C8BBA518CBCD4600077A2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10C8BBA318CBCD4600077A2A /* InfoPlist.strings */; };
 		10C8BBA718CBCD4600077A2A /* UITableView_Controller_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C8BBA618CBCD4600077A2A /* UITableView_Controller_Challenge_SolutionTests.m */; };
+		10C8BBB218CBCFDD00077A2A /* ROChallengeSolutionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C8BBB118CBCFDD00077A2A /* ROChallengeSolutionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		10C8BB8A18CBCD4600077A2A /* ROAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ROAppDelegate.h; sourceTree = "<group>"; };
 		10C8BB8B18CBCD4600077A2A /* ROAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ROAppDelegate.m; sourceTree = "<group>"; };
 		10C8BB8E18CBCD4600077A2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		10C8BB9018CBCD4600077A2A /* ROViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ROViewController.h; sourceTree = "<group>"; };
-		10C8BB9118CBCD4600077A2A /* ROViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ROViewController.m; sourceTree = "<group>"; };
 		10C8BB9318CBCD4600077A2A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		10C8BB9918CBCD4600077A2A /* UITableView Controller Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableView Controller Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10C8BB9A18CBCD4600077A2A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		10C8BBA218CBCD4600077A2A /* UITableView Controller Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableView Controller Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		10C8BBA418CBCD4600077A2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		10C8BBA618CBCD4600077A2A /* UITableView_Controller_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableView_Controller_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		10C8BBB018CBCFDD00077A2A /* ROChallengeSolutionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ROChallengeSolutionViewController.h; path = ../ROChallengeSolutionViewController.h; sourceTree = "<group>"; };
+		10C8BBB118CBCFDD00077A2A /* ROChallengeSolutionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ROChallengeSolutionViewController.m; path = ../ROChallengeSolutionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +112,11 @@
 		10C8BB8118CBCD4600077A2A /* UITableView Controller Challenge Solution */ = {
 			isa = PBXGroup;
 			children = (
+				10C8BBB018CBCFDD00077A2A /* ROChallengeSolutionViewController.h */,
+				10C8BBB118CBCFDD00077A2A /* ROChallengeSolutionViewController.m */,
 				10C8BB8A18CBCD4600077A2A /* ROAppDelegate.h */,
 				10C8BB8B18CBCD4600077A2A /* ROAppDelegate.m */,
 				10C8BB8D18CBCD4600077A2A /* Main.storyboard */,
-				10C8BB9018CBCD4600077A2A /* ROViewController.h */,
-				10C8BB9118CBCD4600077A2A /* ROViewController.m */,
 				10C8BB9318CBCD4600077A2A /* Images.xcassets */,
 				10C8BB8218CBCD4600077A2A /* Supporting Files */,
 			);
@@ -250,9 +250,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10C8BBB218CBCFDD00077A2A /* ROChallengeSolutionViewController.m in Sources */,
 				10C8BB8818CBCD4600077A2A /* main.m in Sources */,
 				10C8BB8C18CBCD4600077A2A /* ROAppDelegate.m in Sources */,
-				10C8BB9218CBCD4600077A2A /* ROViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
